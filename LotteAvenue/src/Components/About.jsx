@@ -7,7 +7,7 @@ export default function About() {
       <div className="bg-[#DBECF4] py-14 px-28">
         <div className="grid grid-cols-2 gap-20">
           <div className="flex justify-center">
-            <img src={Img} alt="" className="w-auto aspect-video" />
+            <img src={"/assets/images/About.jpg"} alt="" className="w-auto aspect-video" />
           </div>
           <div className="text-[#1A4568] col-span-1">
             <p className="font-bold text-7xl">About LotteAvenue.</p>
