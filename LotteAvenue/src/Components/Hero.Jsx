@@ -1,6 +1,9 @@
 import React from "react";
 import { Carousel } from "@material-tailwind/react";
-
+import Slide1 from "../assets//images/slide1.jpg";
+import Slide2 from "../assets//images/slide2.jpg";
+import Slide3 from "../assets//images/slide3.jpg";
+import Slide4 from "../assets//images/slide4.jpg";
 function Hero() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-[#1A4568]">
@@ -11,22 +14,22 @@ function Hero() {
       <div className="w-full max-w-6xl">
         <Carousel className="rounded-xl">
           <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+            src={Slide1}
             alt="slide 1"
             className="h-[500px] md:h-120 w-full object-cover rounded-xl"
           />
           <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+            src={Slide2}
             alt="slide 2"
             className="h-[500px] md:h-120 w-full object-cover rounded-xl"
           />
           <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+            src={Slide3}
             alt="slide 3"
             className="h-[500px] md:h-120 w-full object-cover rounded-xl"
           />
           <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+            src={Slide4}
             alt="slide 4"
             className="h-[500px] md:h-120 w-full object-cover rounded-xl"
           />
