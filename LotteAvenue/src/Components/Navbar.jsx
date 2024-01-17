@@ -30,7 +30,7 @@ function NavList() {
         variant="medium"
         className="p-1 font-small"
       >
-        <ScrollLink to="about" spy={true} smooth={true} duration={500}>
+        <ScrollLink to="about" spy={true} smooth={true} duration={500} offset={-100}>
         <a
           href="#"
           className="flex items-center text-white hover:text-white"
@@ -44,7 +44,7 @@ function NavList() {
         variant="medium" 
         className="p-1 font-small"
       >
-        <ScrollLink to="venue" spy={true} smooth={true} duration={500}>
+        <ScrollLink to="venue" spy={true} smooth={true} duration={500} offset={-100}>
         <a
           href="#"
           className="flex items-center text-white hover:text-white"
