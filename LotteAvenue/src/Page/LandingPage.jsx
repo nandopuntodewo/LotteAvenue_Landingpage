@@ -3,6 +3,7 @@ import NavbarSimple from "../Components/Navbar";
 import About from "../Components/About";
 import Hero from "../Components/Hero";
 import Venue from "../Components/Venue";
+import Footer from "../Components/Footer";
 
 function Page() {
 
@@ -12,6 +13,7 @@ function Page() {
         <Hero />
         <About />
         <Venue />
+        <Footer />
       </>
     );
   }
