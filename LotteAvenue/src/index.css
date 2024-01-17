@@ -70,3 +70,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.separator {
+  background: linear-gradient(to right, rgba(182, 208, 225, 1), rgba(182, 208, 225, 1));
+}

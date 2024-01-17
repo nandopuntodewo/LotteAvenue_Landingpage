@@ -54,10 +54,10 @@ export default function Venue() {
               <img src={check} alt="" style={{ width: "24px" }} />
               <p className="text-white">Money Changer</p>
             </div>
-          
           </div>
         </div>
       </div>
+      <div className="h-3 separator"></div>
     </div>
   );
 }
