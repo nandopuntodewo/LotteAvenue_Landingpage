@@ -6,7 +6,7 @@ import Slide3 from "../assets//images/slide3.jpg";
 import Slide4 from "../assets//images/slide4.jpg";
 function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-[#1A4568]">
+    <div className="flex flex-col items-center justify-center h-screen bg-[#1A4568]" id="home">
       <div className="text-center p-5">
         <h1 className="text-5xl md:text-7xl text-white font-bold mb-4 md:mb-8">Lotte Avenue.</h1>
         <p className="text-xl md:text-2xl text-white font-light mb-8">Insert tagline here</p>

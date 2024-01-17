@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from 'react-scroll';
 import {
   Navbar,
   Collapse,
@@ -15,48 +16,56 @@ function NavList() {
         variant="medium"
         className="p-1 font-small"
       >
+        <ScrollLink to="home" spy={true} smooth={true} duration={500}>
         <a
           href="#"
           className="flex items-center text-white hover:text-white"
         >
           Home
         </a>
+        </ScrollLink>
       </Typography>
       <Typography
         as="li"
         variant="medium"
         className="p-1 font-small"
       >
+        <ScrollLink to="about" spy={true} smooth={true} duration={500}>
         <a
           href="#"
           className="flex items-center text-white hover:text-white"
         >
           About Us
         </a>
+        </ScrollLink>
       </Typography>
       <Typography
         as="li"
         variant="medium" 
         className="p-1 font-small"
       >
+        <ScrollLink to="venue" spy={true} smooth={true} duration={500}>
         <a
           href="#"
           className="flex items-center text-white hover:text-white"
         >
           Venue
         </a>
+        </ScrollLink>
       </Typography>
       <Typography
         as="li"
         variant="medium"
         className="p-1 font-small"
       >
+        <ScrollLink to="footer" spy={true} smooth={true} duration={500}>
         <a
           href="#"
           className="flex items-center text-white hover:text-white"
         >
           Contact
         </a>
+        </ScrollLink>
       </Typography>
     </ul>
   );

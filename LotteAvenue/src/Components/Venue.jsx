@@ -5,7 +5,7 @@ import check from "../assets/checklist.svg";
 export default function Venue() {
   return (
     <div>
-      <div className="bg-[#1A4568] pt-64 pb-48">
+      <div className="bg-[#1A4568] pt-64 pb-48" id="venue">
         <div className="flex justify-center font-bold text-white">
           <p className="text-6xl">Our Venue</p>
         </div>

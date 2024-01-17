@@ -1,17 +1,24 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 export default function Footer() {
   return (
-    <div className="bg-[#1A4568] pt-24 pb-20">
+    <div className="bg-[#1A4568] pt-24 pb-20" id="footer">
       <div className="flex justify-around text-white">
         <div className="flex items-center">
           <p className="text-white font-bold text-xl">LotteAvenue.</p>
         </div>
         <div>
           <p className="font-bold mb-2">Menu</p>
-          <p>About Us</p>
-          <p>Venue</p>
-          <p>Contact</p>
+          <ScrollLink to="about" spy={true} smooth={true} duration={500}>
+            <p className="text-white">About Us</p>
+          </ScrollLink>
+          <ScrollLink to="venue" spy={true} smooth={true} duration={500}>
+            <p className="text-white">Venue</p>
+          </ScrollLink>
+          <ScrollLink to="footer" spy={true} smooth={true} duration={500}>
+            <p className="text-white">Contact</p>
+          </ScrollLink>
         </div>
         <div>
           <p className="font-bold mb-3">Contact Us</p>

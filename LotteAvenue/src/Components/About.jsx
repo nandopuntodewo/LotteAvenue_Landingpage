@@ -4,7 +4,7 @@ import Img from "../assets//images/About.jpg";
 export default function About() {
   return (
     <div>
-      <div className="bg-[#DBECF4] py-14 px-28">
+      <div className="bg-[#DBECF4] py-14 px-28" id="about">
         <div className="grid grid-cols-2 gap-20">
           <div className="flex justify-center">
             <img src={Img} alt="" className="w-auto aspect-video" />
