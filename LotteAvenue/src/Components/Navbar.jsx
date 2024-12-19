@@ -1,5 +1,5 @@
 import React from "react";
-import { Link as ScrollLink } from 'react-scroll';
+import { Link as ScrollLink } from "react-scroll";
 import {
   Navbar,
   Collapse,
@@ -11,60 +11,57 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 function NavList() {
   return (
     <ul className=" flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-10">
-      <Typography
-        as="li"
-        variant="medium"
-        className="p-1 font-small"
-      >
+      <Typography as="li" variant="medium" className="p-1 font-small">
         <ScrollLink to="home" spy={true} smooth={true} duration={500}>
-        <a
-          href="#"
-          className="flex items-center text-white hover:text-white"
-        >
-          Home
-        </a>
+          <a href="#" className="flex items-center text-white hover:text-white">
+            Home
+          </a>
         </ScrollLink>
       </Typography>
-      <Typography
-        as="li"
-        variant="medium"
-        className="p-1 font-small"
-      >
-        <ScrollLink to="about" spy={true} smooth={true} duration={500} offset={-100}>
-        <a
-          href="#"
-          className="flex items-center text-white hover:text-white"
+      <Typography as="li" variant="medium" className="p-1 font-small">
+        <ScrollLink
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-100}
         >
-          About Us
-        </a>
+          <a href="#" className="flex items-center text-white hover:text-white">
+            About Us
+          </a>
         </ScrollLink>
       </Typography>
-      <Typography
-        as="li"
-        variant="medium" 
-        className="p-1 font-small"
-      >
-        <ScrollLink to="venue" spy={true} smooth={true} duration={500} offset={-100}>
-        <a
-          href="#"
-          className="flex items-center text-white hover:text-white"
+      <Typography as="li" variant="medium" className="p-1 font-small">
+        <ScrollLink
+          to="recommendation"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-100}
         >
-          Venue
-        </a>
+          <a href="#" className="flex items-center text-white hover:text-white">
+            Recommendation
+          </a>
         </ScrollLink>
       </Typography>
-      <Typography
-        as="li"
-        variant="medium"
-        className="p-1 font-small"
-      >
+      <Typography as="li" variant="medium" className="p-1 font-small">
+        <ScrollLink
+          to="maps"
+          spy={true}
+          smooth={true}
+          duration={500}
+          offset={-100}
+        >
+          <a href="#" className="flex items-center text-white hover:text-white">
+            Search Location
+          </a>
+        </ScrollLink>
+      </Typography>
+      <Typography as="li" variant="medium" className="p-1 font-small">
         <ScrollLink to="footer" spy={true} smooth={true} duration={500}>
-        <a
-          href="#"
-          className="flex items-center text-white hover:text-white"
-        >
-          Contact
-        </a>
+          <a href="#" className="flex items-center text-white hover:text-white">
+            Contact
+          </a>
         </ScrollLink>
       </Typography>
     </ul>
@@ -94,7 +91,7 @@ export default function NavbarSimple() {
           variant="h6"
           className="mr-4 ml-0 cursor-pointer py-1.5 text-white hover:text-white text-2xl"
         >
-          LotteAvenue.
+          GoodHair.
         </Typography>
         <div className="hidden lg:block">
           <NavList />

@@ -3,10 +3,10 @@ import { Link as ScrollLink } from "react-scroll";
 
 export default function Footer() {
   return (
-    <div className="bg-[#1A4568] pt-24 pb-20" id="footer">
+    <div className="bg-[#153855] pt-24 pb-20" id="footer">
       <div className="flex justify-around text-white">
         <div className="flex items-center">
-          <p className="text-white font-bold text-xl">LotteAvenue.</p>
+          <p className="text-white font-bold text-xl">GoodHair.</p>
         </div>
         <div>
           <p className="font-bold mb-2">Menu</p>
@@ -16,48 +16,29 @@ export default function Footer() {
           <ScrollLink to="venue" spy={true} smooth={true} duration={500}>
             <p className="text-white">Venue</p>
           </ScrollLink>
+          <ScrollLink to="mpas" spy={true} smooth={true} duration={500}>
+            <p className="text-white">Search Location</p>
+          </ScrollLink>
           <ScrollLink to="footer" spy={true} smooth={true} duration={500}>
             <p className="text-white">Contact</p>
           </ScrollLink>
         </div>
         <div>
-          <p className="font-bold mb-3">Contact Us</p>
+          <p className="font-bold mb-3">Our Teams</p>
           <div className="flex items-center gap-3">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 16V8.00001M8 14V10M16 14V10M17 3.33801C15.4805 2.45891 13.7555 1.99731 12 2.00001C6.477 2.00001 2 6.47701 2 12C2 13.6 2.376 15.112 3.043 16.453C3.221 16.809 3.28 17.216 3.177 17.601L2.582 19.827C2.52307 20.0473 2.52312 20.2792 2.58216 20.4995C2.64119 20.7197 2.75712 20.9206 2.91831 21.0819C3.07951 21.2432 3.2803 21.3593 3.50053 21.4184C3.72075 21.4776 3.95267 21.4778 4.173 21.419L6.399 20.823C6.78541 20.7258 7.19403 20.7731 7.548 20.956C8.93092 21.6446 10.4551 22.0021 12 22C17.523 22 22 17.523 22 12C22 10.179 21.513 8.47001 20.662 7.00001"
-                stroke="#F9F9F9"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
-            <p>0812-3456-7890</p>
+            <p>Awangga Surya Atmaja</p>
           </div>
           <div className="flex gap-2 items-center">
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 21"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M21.75 19.5H2.25C1.005 19.5 0 18.495 0 17.25V3.75C0 2.505 1.005 1.5 2.25 1.5H21.75C22.995 1.5 24 2.505 24 3.75V17.25C24 18.495 22.995 19.5 21.75 19.5ZM2.25 3C1.83 3 1.5 3.33 1.5 3.75V17.25C1.5 17.67 1.83 18 2.25 18H21.75C22.17 18 22.5 17.67 22.5 17.25V3.75C22.5 3.33 22.17 3 21.75 3H2.25Z"
-                fill="#F9F9F9"
-              />
-              <path
-                d="M12.0001 13.4399C10.9501 13.4399 9.99013 13.0199 9.27013 12.2549L1.39513 3.88493C1.11013 3.58493 1.12513 3.10493 1.42513 2.81993C1.72513 2.53493 2.20513 2.54993 2.49013 2.84993L10.3651 11.2199C11.2201 12.1349 12.7801 12.1349 13.6351 11.2199L21.5101 2.86493C21.7951 2.56493 22.2751 2.54993 22.5751 2.83493C22.8751 3.11993 22.8901 3.59993 22.6051 3.89993L14.7301 12.2699C14.0101 13.0349 13.0501 13.4549 12.0001 13.4549V13.4399Z"
-                fill="#F9F9F9"
-              />
-            </svg>
-
-            <p>lotteavenue@mail.co.id</p>
+            <p>M. Hasan Farikhi</p>
+          </div>
+          <div className="flex gap-2 items-center">
+            <p>Rofi Nur Rohmawan</p>
+          </div>
+          <div className="flex gap-2 items-center">
+            <p>Deva Sindi Maulita</p>
+          </div>
+          <div className="flex gap-2 items-center">
+            <p>Deanandro Puntodewo</p>
           </div>
         </div>
         <div className="font-bold">

@@ -2,8 +2,9 @@ import React from "react";
 import NavbarSimple from "../Components/Navbar";
 import About from "../Components/About";
 import Hero from "../Components/Hero";
-import Venue from "../Components/Venue";
+import Recommendation from "../Components/Recommendation";
 import Footer from "../Components/Footer";
+import MapComponent from "../Components/MapComponent";
 
 function Page() {
 
@@ -12,7 +13,8 @@ function Page() {
         <NavbarSimple />
         <Hero />
         <About />
-        <Venue />
+        <Recommendation />
+        <MapComponent />
         <Footer />
       </>
     );
